@@ -12,6 +12,8 @@
 
 int main()
 {
+    create_log_process();
+
     FILE *f = open_db("sensor_db.csv", true);
 
     sleep(1);
